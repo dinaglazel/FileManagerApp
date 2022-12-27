@@ -9,7 +9,6 @@ import FileView from './fileView'
 import { ClickAwayListener } from "@mui/base";
 
 function App() {
-  const [inputList, setInputList] = useState([{ name: "", fileType: "",ouner :""}]);
   const [filesList, setfilesList] = useState([
   ]);
   useEffect(() => { 
